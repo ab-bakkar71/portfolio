@@ -20,6 +20,9 @@
 .dark-3{
     color: #757575;
 }
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-size: 20px;
@@ -29,11 +32,22 @@
     border-radius: 5px;
     border: none;
 }
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818;
+}
+.section-des{
+    font-size: 18px;
+}
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position:top left, bottom right;
+    
+    
 }
 /* nav styles */
 
@@ -85,5 +99,28 @@ nav ul li a{
 .banner-pic{
     width:584px ;
     height: 676px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
+
+
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-item{
+    display: flex;
+    justify-content: space-between;
+}
+.item-desc{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
 }
